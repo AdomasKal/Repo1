@@ -1,0 +1,12 @@
+{
+	"HTML structure":
+	{
+		"prefix": ["HTMLas"],
+		"body": ["<HTML>",
+		"<Title></Title>",
+		"<Body></Body>",
+		"</HTML>"],
+		"description": "html pagrindine struktura."
+	}
+
+}

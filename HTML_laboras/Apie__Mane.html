@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang = "lt">
-
+<!--nelieciu navbar'o, linku i socialus ir footeriu-->
 <html>
     <head>
     <meta charset = "UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <title>About Me</title>
 
         <meta content="" name="Autorius: Adomas Kalašnikovas">
@@ -18,32 +17,41 @@
         <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
         <!--CSS styles-->
-        
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
         <!--CSS template-->
-
+        <link href="assets/css/style.css" rel="stylesheet">
 
     </head>
 
     <body>
-        <div>
+        
+        <div class="container">
             <u><b>Apie mane</b></u>
-            <button><a href="Portfolio.html">Portfolio</a></button>
-            <button><a href="Resume.html">Mano reziumė</a></button>
-            <button><a href="Paslaugos.html">Paslaugos</a></button>
+            <button class="button"><a href="Portfolio.html">Portfolio</a></button>
+            <button class="button"><a href="Resume.html">Mano reziumė</a></button>
+            <button class="button"><a href="Paslaugos.html">Paslaugos</a></button>
         </div>
-        <div>
+
+        <section class="section pb-5">
+        <div class="container">
+
+        <div class="row mb-5 align-items-end">
+            <div class="col-md-8">
             <h3>Aprašymas</h3>
-        </div>
-        <H2>Trumpai apie mane</H2>
-        <div>
-            <p>
+                <H2>Trumpai apie mane</H2>
+                
                 <p>
-                Esu Adomas Kalašnikovas, Vilnius Tech studentas, NKKM kompiuterių mokyklos mokytojas.<br>
-                Pasižymiu atkaklumu, aukštumų siekiu, tad minimumas - ne rodiklis. Turiu patirties įvairiuose sektoriuose,<br>
-                nuo gamybos iki informacinių technologijų. Ši patirtis man leidžia suprasti projektų pagrindinį tikslą<br>
-                daug greičiau, taip pat padeda siekiant juos optimizuoti ir nešališkai analizuoti jų naudą ar žalą.<br>
+                    <p>
+                        Esu Adomas Kalašnikovas, Vilnius Tech studentas, NKKM kompiuterių mokyklos mokytojas.
+                        Pasižymiu atkaklumu, aukštumų siekiu, tad minimumas - ne rodiklis. Turiu patirties įvairiuose sektoriuose,
+                        nuo gamybos iki informacinių technologijų. Ši patirtis man leidžia suprasti projektų pagrindinį tikslą
+                        daug greičiau, taip pat padeda siekiant juos optimizuoti ir nešališkai analizuoti jų naudą ar žalą.<br>
+                    </p>
                 </p>
-            </p>
+            </div>
         </div>
         <table>
             <tr>
@@ -51,7 +59,8 @@
                     <img src="priedai/just_a_dude_cropped.JPG" alt="photo of a dude" width="400" height="400">
                 </td>
                 <td>
-                   <h3> 
+                    <div class="center">
+                   <h4> 
                     Gabumai:<br><br>
                     <b>
                     Komandinis darbas - 80%<br>
@@ -59,34 +68,44 @@
                     Komunikacija - 92%<br>
                     Sugebėjimas prisitaikyti - 84%<br>
                     Žingeidumas - 98%<br>
+                    </div>
                     </b>
-                    </h3>
+                    </h4>
                 </td>
             </tr>
         </table>
-        <div>
+        <br>
+        <div class="row mb-5 align-items-end">
+            <div class="col-md-8">
             <p>
-            Nuo mažens pasižymėjau smalsumu ir žingeidumu. Laikui bėgant šie požymiai pasireiškė mano susidomėjimu elektronika<br>
-            ir įvairiomis kompiuterizuotomis sistemomis. Nuo įvairių elektroninių menkniekių ardymo iki audio sistemų instaliacijos<br>
-            savo bei draugų automobiliuose, mano praktinės žinios šioje srityje tik augo, o smalsumas išaugo į norą sužinoti kaip veikia<br>
+            Nuo mažens pasižymėjau smalsumu ir žingeidumu. Laikui bėgant šie požymiai pasireiškė mano susidomėjimu elektronika
+            ir įvairiomis kompiuterizuotomis sistemomis. Nuo įvairių elektroninių menkniekių ardymo iki audio sistemų instaliacijos
+            savo bei draugų automobiliuose, mano praktinės žinios šioje srityje tik augo, o smalsumas išaugo į norą sužinoti kaip veikia
             kiekvienas komponentas ir detalė.
             </p>
+            <br>
             <p>
-            Besimokydamas aštuntoje klasėje jau be abejonės žinojau kuria kryptimi keliausiu pabaigęs gimnaziją. Ši kryptis buvo<br>
-            Elektronikos Inžinerija. Žinoma, ne viskas buvo rožėmis klota. Pirmame kurse susidūriau su sveikatos problemomis, kurios<br>
-            prikaustė mane prie lovos didžiąjai dienos daliai. Tai gerokai atsiliepė ir mano studijoms. Buvau privestas pusmečiui pasitraukti<br>
+                Besimokydamas aštuntoje klasėje jau be abejonės žinojau kuria kryptimi keliausiu pabaigęs gimnaziją. Ši kryptis buvo
+            Elektronikos Inžinerija. Žinoma, ne viskas buvo rožėmis klota. Pirmame kurse susidūriau su sveikatos problemomis, kurios
+            prikaustė mane prie lovos didžiąjai dienos daliai. Tai gerokai atsiliepė ir mano studijoms. Buvau privestas pusmečiui pasitraukti
             iš mokomojo proceso.
             </p>
+            <br>
             <p>
-            Laimei, turėdamas daugiau laisvo laiko, galėjau daugiau dėmesio sutelti sveikatai. Šis dėmesys gerokai atsipirko, nes į studijas grižau<br>
-            jau praktiškai pilnaverčiu ir žinių išsiilgusiu studentu. Šiuo metu išnaudoju savo kompiuterines žinias mokydamas kompiuterių mokykloje.<br>
-            Šis darbas leidžia ne tik tobulėti komunikacijos ir viešo kalbėjimo srityse, tačiau ir gerokai gilina mano žinias ne tik apie kompiuterius,<br>
+                Laimei, turėdamas daugiau laisvo laiko, galėjau daugiau dėmesio sutelti sveikatai. Šis dėmesys gerokai atsipirko, nes į studijas grižau
+            jau praktiškai pilnaverčiu ir žinių išsiilgusiu studentu. Šiuo metu išnaudoju savo kompiuterines žinias mokydamas kompiuterių mokykloje.
+            Šis darbas leidžia ne tik tobulėti komunikacijos ir viešo kalbėjimo srityse, tačiau ir gerokai gilina mano žinias ne tik apie kompiuterius,
             bet ir sofistikuotas elektronikos sistemas, kurios priverčia juos "tiksėti".
             </p>
+            <br>
             <p>
             Mano gyvenimo moto:"Tobulėjimui ribų nėra!"
             </p>
+            </div>
         </div>
+
+        </div>
+        </section>
 
     </body>
 

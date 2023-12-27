@@ -3,7 +3,7 @@
     background-color:rgb(194, 178, 128);
 }
 .topbar{
-    background-color: rgb(255, 234, 209);
+    background-color: rgb(8, 8, 122);
     border-style: solid;
     border-width: 2px;
     border-color: rgb(194, 178, 128);
@@ -33,7 +33,7 @@ div.flex{
 
 footer{
     font-size: 14px;
-    background-color: rgb(255, 234, 209);
+    background-color: rgb(209, 209, 255);
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -58,3 +58,8 @@ ul {
     width: 150px;
     align-content: space-around;
 }
+
+#sarasas{
+    font-family: "Raleway", sans-serif;
+}
+

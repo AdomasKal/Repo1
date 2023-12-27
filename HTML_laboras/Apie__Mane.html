@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang = "lt">
-<!--nelieciu navbar'o, linku i socialus ir footeriu-->
+
 <html>
     <head>
     <meta charset = "UTF-8">
@@ -11,7 +11,7 @@
         <meta content="" name="Apie Mane">
 
         <!--Icon-->
-
+        
 
         <!--Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -21,20 +21,25 @@
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
         <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link href="priedai/css/style_mine.css" rel="stylesheet"> <!--Mano style sheetas-->
         <!--CSS template-->
         <link href="assets/css/style.css" rel="stylesheet">
 
     </head>
 
     <body>
-        
         <div class="container">
-            <u><b>Apie mane</b></u>
-            <button class="button"><a href="Portfolio.html">Portfolio</a></button>
-            <button class="button"><a href="Resume.html">Mano reziumė</a></button>
-            <button class="button"><a href="Paslaugos.html">Paslaugos</a></button>
+            <div class="navbar">
+                <div>
+                    <ul style="list-style-type: none; margin: 0; padding: 0;">
+                        <li><u><b>Apie mane</b></u></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Resume.html">Mano reziumė</a></li>
+                        <li><a href="Paslaugos.html">Paslaugos</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
         <section class="section pb-5">
         <div class="container">
 
@@ -48,32 +53,28 @@
                         Esu Adomas Kalašnikovas, Vilnius Tech studentas, NKKM kompiuterių mokyklos mokytojas.
                         Pasižymiu atkaklumu, aukštumų siekiu, tad minimumas - ne rodiklis. Turiu patirties įvairiuose sektoriuose,
                         nuo gamybos iki informacinių technologijų. Ši patirtis man leidžia suprasti projektų pagrindinį tikslą
-                        daug greičiau, taip pat padeda siekiant juos optimizuoti ir nešališkai analizuoti jų naudą ar žalą.<br>
+                        daug greičiau, taip pat padeda siekiant juos optimizuoti ir nešališkai analizuoti jų naudą ar žalą.
                     </p>
                 </p>
             </div>
         </div>
-        <table>
-            <tr>
-                <td>
-                    <img src="priedai/just_a_dude_cropped.JPG" alt="photo of a dude" width="400" height="400">
-                </td>
-                <td>
-                    <div class="center">
-                   <h4> 
+        <div class="flex">
+            <div class="nuotrauka">
+                <img src="priedai/media/just_a_dude_cropped.JPG" alt="photo of a dude" width="400" height="400">
+            </div>
+            <div class="gabumai">
+                <h4> 
                     Gabumai:<br><br>
-                    <b>
+                </h4>
+                <h5>
                     Komandinis darbas - 80%<br>
                     Darbas kompiuteriu - 90%<br>
                     Komunikacija - 92%<br>
                     Sugebėjimas prisitaikyti - 84%<br>
                     Žingeidumas - 98%<br>
-                    </div>
-                    </b>
-                    </h4>
-                </td>
-            </tr>
-        </table>
+                </h5>
+            </div>
+        </div>
         <br>
         <div class="row mb-5 align-items-end">
             <div class="col-md-8">

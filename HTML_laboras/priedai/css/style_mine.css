@@ -2,14 +2,21 @@
     color:rgb(194, 178, 128);
     background-color:rgb(194, 178, 128);
 }
-.navbar{
+.topbar{
     background-color: rgb(255, 234, 209);
     border-style: solid;
     border-width: 2px;
     border-color: rgb(194, 178, 128);
     border-bottom: 80%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 20px;
 }
 
 body {
@@ -17,17 +24,37 @@ body {
 }
 
 div.flex{
-    width: 65%;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+footer{
+    font-size: 14px;
+    background-color: rgb(255, 234, 209);
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     flex-direction: row;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-div.gabumai{
-    width: 210px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-footer{
+.contact {
     font-size: 14px;
+    line-height: 30px;
+}
+
+.foot {
+    width: 150px;
+    align-content: space-around;
 }

@@ -62,3 +62,8 @@ ul {
 #sarasas{
     font-family: "Raleway", sans-serif;
 }
+
+.Clock{
+    text-align: right;
+    padding-right: 50px;
+}

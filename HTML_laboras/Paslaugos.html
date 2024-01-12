@@ -1,112 +1,195 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Paslaugos</title>
+    <meta content="" name="Autorius: Adomas Kalašnikovas">
+    <meta content="" name="resume">
+    <!--Icon-->
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!--CSS styles-->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="priedai/css/style_mine.css" rel="stylesheet">
+    <!--Mano style sheetas-->
+    <!--CSS template-->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <div class="topbar">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="index.html" style="color:white">
+                <b>Apie Mane</b>
+              </a>
+            </li>
+            <li>
+              <a href="Portfolio.html" style="color:white">
+                <b>Portfolio</b>
+              </a>
+            </li>
+            <li>
+              <a href="Resume.html" style="color:white">
+                <b>Mano reziumė</b>
+              </a>
+            </li>
+            <li style="color:white">
+              <u>
+                <b>Paslaugos</b>
+              </u>
+            </li>
+          </ul>
+        </div>
+        <div class="socials">
+          <ul>
+            <li>
+              <img src="priedai/media/X-logo.png" height="20" alt="X logo">
+              <a href="https://twitter.com" style="color:white">
+                <b>Twitter</b>
+              </a>
+            </li>
+            <li>
+              <img src="priedai/media/facebook-logo-black.png" height="25" width="20" alt="facebook logo">
+              <a href="https://facebook.com" style="color:white">
+                <b>Facebook</b>
+              </a>
+            </li>
+            <li>
+              <img src="priedai/media/linkedin-logo.png" height="25" alt="linkedin logo">
+              <a href="https://linkedin.com" style="color:white">
+                <b>LinkedIn</b>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="section pb-5">
+      <div class="container">
+        <div class="row mb-5 align-items-end">
+          <div class="col-md-8">
+            <h3>Paslaugos</h3>
+            <h2>Audio and Video section</h2>
+            <br>
+            <!--Panaudojau "embed" vietoje "watch=v?" -->
+            <h4>Embeded</h4>
+            <iframe height="360" width="350px" src="https://www.youtube.com/embed/TOfYLRxDW78" title="LIDL lituoklio modifikavimas"></iframe>
+            <br>
+            <br>
+            <h4>Folderyje "Priedai"</h4>
+            <video width="350px" src="priedai/media/sudden_attack.mp4">browser dont support video tag</video>
+            <br>
+            <br>
+            <audio controls>
+              <source src="priedai/media/RIck.mp3">
+            </audio>
+        </div>
+    </div>
+</div>
+</section>
 
-        <title>Paslaugos</title>
-        <meta content="" name="Autorius: Adomas Kalašnikovas">
-        <meta content="" name="resume">
-
-        <!--Icon-->
-
-        <!--Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-        <!--CSS styles-->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <link href="priedai/css/style_mine.css" rel="stylesheet"> <!--Mano style sheetas-->
-        <!--CSS template-->
-        <link href="assets/css/style.css" rel="stylesheet">
-
-    </head>
-
-    <body>
-        <div>
-            <div class="topbar">
-                <div class="nav">
-                    <ul>
-                        <li><a href="index.html" style="color:white"><b>Apie Mane</b></a></li>
-                        <li><a href="Portfolio.html" style="color:white"><b>Portfolio</b></a></li>
-                        <li><a href="Resume.html" style="color:white"><b>Mano reziumė</b></a></li>
-                        <li style="color:white"><u><b>Paslaugos</b></u></li>
-                    </ul>
+<!--Aplikacija del darbo-->
+<form id="applicationForm" class="container">
+    <div class="container">
+        <div class="Aplikacija">
+            <h3>Aplikacija prisidėti prie komandos:</h3>
+            <p>Jei norėtumėte prisidėti prie mūsų komandos, užpildykite žemiau esančią  anketą ir mes su jumis susisieksime nurodytu el. paštu.</p>
+            <br>
+            <div class="duomenys">
+                <div>
+                    <h6>Vardas:</h6>
+                    <input type="text" placeholder="Vardenis" name="name" required>
+                    <br><br>
+                    <h6>Pavardė:</h6>
+                    <input type="text" placeholder="Pavardenis" name="surname" required>
+                    <br><br>
+                    <h6>El.Paštas:</h6>
+                    <input type="text" placeholder="email@example.com" name="email" required>
+                    <br><br>
+                    <h6>Tel.numeris:</h6>
+                    <input type="text" placeholder="+37099999999" name="phone" required>
+                    <br><br>
                 </div>
-                
-                <div class="socials">
-                    <ul>
-                       <li>
-                            <img src="priedai/media/X-logo.png" height="20" alt="X logo">
-                            <a href="https://twitter.com" style="color:white"><b>Twitter</b></a>
-                       </li>
-                       <li>
-                            <img src="priedai/media/facebook-logo-black.png" height="25" width="20" alt="facebook logo">
-                            <a href="https://facebook.com" style="color:white"><b>Facebook</b></a>
-                       </li>
-                       <li>
-                            <img src="priedai/media/linkedin-logo.png" height="25" alt="linkedin logo">
-                            <a href="https://linkedin.com" style="color:white"><b>LinkedIn</b></a>
-                       </li>
-                    </ul>
+                <div>
+                    <h6>Šalis:</h6>
+                    <input type="text" placeholder="Lietuva" name="country" required>
+                    <br><br>
+                    <h6>Miestas:</h6>
+                    <input type="text" placeholder="Vilnius" name="city" required>
+                    <br><br>
+                    <h6>Gatvė:</h6>
+                    <input type="text" placeholder="Gedimino pr." name="street" required>
+                    <br><br>
+                    <h6>Namo(-buto) numeris:</h6>
+                    <input type="text" placeholder="123-4" name="house" required>
+                    <br><br>
+                </div>
+                <div style="width:min-content;">
+                    <p>Įvertinkite savo sugebėjimus 0-10 balų skalėje:</p>
+                    <br>
+                    <h6>MS Excel:</h6>
+                    <input type="number" placeholder="0-10" name="Excel" required>
+                    <br><br>
+                    <h6>MS Word:</h6>
+                    <input type="number" placeholder="0-10" name="Word" required>
+                    <br><br>
+                    <h6>HTML/CSS:</h6>
+                    <input type="number" placeholder="0-10" name="web" required>
+                    <br><br>
+                    <h6>Javascript:</h6>
+                    <input type="number" placeholder="0-10" name="javai" required>
+                    <br><br>
+                    <h6>PHP:</h6>
+                    <input type="number" placeholder="0-10" name="drambliukas" required>
+                    <br><br>
                 </div>
             </div>
+
+                <button class="mygtukas" type="submit">Submit</button>
         </div>
+    </div>
+</form>
+<div class="container" id="nebezinau">
+<div class="container" id="remas">
+    <div id="outputContainer"></div>
+</div>
+</div>
 
-        <section class="section pb-5">
-            <div class="container">
-    
-            <div class="row mb-5 align-items-end">
-                <div class="col-md-8">
+<script src="priedai/js/applicationForm.js"></script>
 
-        <h3>Paslaugos</h3>
-        
-        <h2>Audio and Video section</h2>
-
-        <br>
-        <!--Panaudojau "embed" vietoje "watch=v?" -->
-        <h4>Embeded</h4>
-        <iframe height="360" width="640" src="https://www.youtube.com/embed/TOfYLRxDW78" title="LIDL lituoklio modifikavimas"></iframe>
-        <br><br>
-        <h4>Folderyje "Priedai"</h4>
-        <video width="640" src="priedai/media/sudden_attack.mp4">browser dont support video tag</video>
-        <br><br>
-        <audio controls> <source src="priedai/media/RIck.mp3"></audio>
-
-                </div>
-            </div>
-        </div>
-        </section>
-    </body>
     <footer>
-        <div>
-            Copyright BingBongTM. All rights reserved.
-            <br>
-            <br>
-            Autorius: Adomas Kalašnikovas
+      <div> Copyright BingBongTM. All rights reserved. <br>
+        <br> Autorius: Adomas Kalašnikovas
+      </div>
+      <div>
+        <div class="foot">
+          <a href="https://twitter.com">
+            <img src="priedai/media/X-logo.png" height="20" alt="X logo">
+          </a>
+          <a href="https://facebook.com">
+            <img src="priedai/media/facebook-logo-black.png" height="25" width="17" alt="facebook logo">
+          </a>
+          <a href="https://linkedin.com">
+            <img src="priedai/media/linkedin-logo.png" height=25 alt="linkedin logo">
+          </a>
         </div>
-        <div>
-            <div class="foot">
-                <a href="https://twitter.com"><img src="priedai/media/X-logo.png" height="20" alt="X logo"></a>
-
-                <a href="https://facebook.com"><img src="priedai/media/facebook-logo-black.png" height="25" width="17" alt="facebook logo"></a>
-                
-                <a href="https://linkedin.com"><img src="priedai/media/linkedin-logo.png" height=25 alt="linkedin logo"></a>
-            </div>
-        </div>
-        <div class="contact">
-            <ul>
-                <li>
-                    <img src="priedai/media/mail-logo.png" width="25" alt="mail picture">
-                    adomas.kalasnikovas@legit.email.lt
-                </li>
-                <li>
-                    <img src="priedai/media/mobile-logo.png" width="25" alt="phone picture">
-                    +3703333333
-                </li>
-             </ul>
-        </div>
+      </div>
+      <div class="contact">
+        <ul>
+          <li>
+            <img src="priedai/media/mail-logo.png" width="25" alt="mail picture"> adomas.kalasnikovas@legit.email.lt
+          </li>
+          <li>
+            <img src="priedai/media/mobile-logo.png" width="25" alt="phone picture"> +3703333333
+          </li>
+        </ul>
+      </div>
     </footer>
+  </body>
 </html>
